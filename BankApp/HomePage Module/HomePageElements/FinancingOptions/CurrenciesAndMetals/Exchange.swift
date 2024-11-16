@@ -14,7 +14,7 @@ struct ExchangeRates: Codable {
 class ExchangeRateService: ObservableObject {
     
     @Published var exchangeRates: ExchangeRates?
-    private let apiKey = "24fa91e9c3e8430493051d4479dfb139" // Замените на ваш API ключ
+
 
     func fetchExchangeRates() {
 //        let urlString = "https://openexchangerates.org/api/latest.json?app_id=\(apiKey)"
